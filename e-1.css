@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: white;
+	background-image: url(https://static.vecteezy.com/system/resources/previews/002/173/088/non_2x/abstract-dark-blue-background-and-scratch-streak-texture-vector.jpg);
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-header {
+	background-image: url(https://www.publicdomainpictures.net/pictures/320000/nahled/grungy-light-gray-concrete-texture.jpg);
+	color: rgb(50, 51, 47);
+	height: 100px;
+}	
+	#main-header a {
+		color: rgb(50, 51, 47);
+	}
+
+	#main-header .pb a {
+		color: white;
+		font-size: 30px;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 25px 0 0 20px;
+	text-decoration: none;
+}
+	
+	
+	#logo-header .site-name {
+		display: block;
+		font-size: 5em;
+		color: #09063E;
+		font-style: italic;
+		background-color: #b2ec10;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		padding: 27px;
+		font-weight: 300;
+		font-size: 1.5em;
+		color: black;
+	}
+
+.pb{
+	background-color: rgb(50, 51, 47);
+}
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+            font-size: 30px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0px 10px;
+				text-decoration: none;
+				font-size: 25px;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+				#main-content {
+					background: #9e9ea7;
+					width: 90%;
+					max-width: 800px;
+					margin: 20px auto;
+					box-shadow: 0 0 10px rgba(0,0,0,.1);
+				}
+				
+					#main-content header,
+					#main-content .content {
+						padding: 40px;
+					}
+
+				
+				#main-footer {
+					background:#BBBBB9;
+					color: white;
+					text-align: center;
+					padding: 20px;
+					margin-top: 40px;
+				}
+					#main-footer p {
+						margin: 0;
+					}
+					
+					#main-footer a {
+						color: white;
+					}
+
+table{
+    
+    margin: auto;
+    margin-top: 70px;
+    font-size: 20px;
+    border-collapse: collapse;
+    border: rgba(121, 53, 167, 0.918) solid;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/173/088/non_2x/abstract-dark-blue-background-and-scratch-streak-texture-vector.jpg);
+	text-align: center;
+}
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: #9e9ea7;
+    font-size: 40px;
+}
+
+h2{
+    color: rgb(97, 26, 26);
+    font-size: 35;
+}
+
+p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+footer p{
+	color: rgb(255, 255, 255);
+}
+
+#main-footer{
+	background-image: url(https://static.vecteezy.com/system/resources/previews/002/173/088/non_2x/abstract-dark-blue-background-and-scratch-streak-texture-vector.jpg);
+}
